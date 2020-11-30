@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 24절기 메인페이지 -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-theme="b" id="header">
+            <h1>대한민국 24절기 소개</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" id="list">
+                <li data-role="list-divider">대한민국 24절기 소개</li>
+                <li><a href="#spring" data-transition="slide">
+                    <img src="images/spring/spring.jpg" alt="봄">
+                    <h3>봄</h3>
+                    <p>입춘, 우수, 경칩, 춘분, 청명, 곡우</p>
+                </a></li>
+                <li><a href="#summer" data-transition="slide">
+                    <img src="images/summer/summer.jpg" alt="여름">
+                    <h3>여름</h3>
+                    <p>입하, 소만, 망종, 하지, 소서, 대서</p>
+                </a></li>
+                <li><a href="#가을" data-transition="slide">
+                    <img src="images/fall/fall.jpg" alt="가을">
+                    <h3>가을</h3>
+                    <p>입추, 처서, 백로, 추분, 한로, 상강</p>
+                </a></li>
+                <li><a href="#spring" data-transition="slide">
+                    <img src="images/winter/winter.jpg" alt="겨울">
+                    <h3>겨울</h3>
+                    <p>입동, 소설, 대설, 동지, 소한, 대한</p>
+                </a></li>
+            </ul>   
+        </div>
+    </div>
+    <!-- 24절기 중 봄 페이지 -->
+    <div data-role="page" id="spring">
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <a href="#home" data-icon="home">Home</a>
+            <h1>24절기 중 봄</h1>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set">
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>입춘</h1>
+                    <img class="term small" src="images/spring/ibchun.gif" alt="입춘">
+                    <p>24절기 중 첫째 절기로 대한(大寒)과 우수(雨水) 사이에 있는 절기. 보통 양력 2월 4일경에 해당한다. 태양의 황경(黃經)이 315도일 때로 이날부터 봄이 시작된다. 입춘은 음력으로 주로 정월에 드는데, 어떤 해는 정월과 섣달에 거듭 드는 때가 있다. 이럴 경우 ‘재봉춘(再逢春)’이라 한다.
+                    </p>
+                    <img src="images/spring/mokwoo.jpg" alt="목우">
+                    <p class="title">[목우제사 - 입춘풍습]</p>
+                    <img src="images/spring/jeju.jpg" alt="제주">
+                    <p class="title">[제주입춘굿 - 입춘풍습]</p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>우수</h1>
+                    <img class="term small" src="images/spring/woosu.jpg" alt="우수">
+                    <p>봄에 들어선다는 입춘과 동면하던 개구리가 놀라서 깬다는 경칩 사이에 있는 24절기의 하나. 입춘 입기일(入氣日) 15일 후인 양력 2월 19일 또는 20일이 되며 태양의 황경이 330도의 위치에 올 때이다.</p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>경칩</h1>
+                    <img class="term" src="images/spring/kyungchib.jpg" alt="경칩">
+                    <p>24절기 중 세 번째 절기(節氣). 계칩(啓蟄)이라고도 한다. 태양의 황경(黃經)이 345도에 이르는 때로 동지 이후 74일째 되는 날이다. 양력으로는 3월 5일 무렵이 된다.</p>
+                    <img src="images/spring/goro.jpg" alt="고로">
+                    <p class="title">[고로쇠 물 마시기 - 경칩풍습]</p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>춘분</h1>
+                    <img class="term" src="images/spring/chunbun.jpg" alt="춘분">
+                    <p>24절기의 네 번째 절기. 춘분(春分)은 경칩(驚蟄)과 청명(淸明)의 중간에 드는 절기로 양력 3월 21일 전후, 음력 2월 무렵에 든다. 이날 태양이 남쪽에서 북쪽으로 향하여 적도를 통과하는 점, 곧 황도(黃道)와 적도(赤道)가 교차하는 점인 춘분점(春分點)에 이르렀을 때, 태양의 중심이 적도(赤道) 위를 똑바로 비추어, 양(陽)이 정동(正東)에 음(陰)이 정서(正西)에 있으므로 춘분이라 한다. 이날은 음양이 서로 반인만큼 낮과 밤의 길이가 같고 추위와 더위가 같다. 이 절기를 전후하여 농가에서는 봄보리를 갈고 춘경(春耕)을 하며 담도 고치고 들나물을 캐어먹는다.
+                    </p>
+                    <img class="term" src="images/spring/sahan.jpg" alt="사한">
+                    <p class="title">[사한제 - 춘분풍습]</p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>청명</h1>
+                    <p>음력 3월에 드는 24절기의 다섯 번째 절기. 청명(淸明)이란 하늘이 차츰 맑아진다는 뜻을 지닌 말이다.
+                    </p>
+                    <h2>[날씨점 - 청명풍습]</h2>
+                    <p>음력 3월에 드는 청명일(淸明日)의 날씨를 보고 그 해 농사의 풍흉을 점치는 기후점(氣候占).</p>
+                    <h2>[가래질하기 - 청명풍습]</h2>
+                    <p>가래로 논이나 밭을 고르거나 흙을 떠서 옮기고 나르는 일.</p>
+                </div>
+                <div data-role="collapsible">
+                    <h1>곡우</h1>
+                    <img class="term" src="images/spring/gokwo.jpg" alt="곡우">
+                    <p>24절기의 여섯 번째 절기. 곡우(穀雨)는 청명(淸明)과 입하(立夏) 사이에 있으며, 음력 3월 중순경으로, 양력 4월 20일 무렵에 해당한다. 곡우의 의미는 봄비[雨]가 내려 백곡[穀]을 기름지게 한다는 뜻이다.
+                    </p>
+                    <img src="images/spring/gokwowater.jpg" alt="곡우물">
+                    <p class="title">[곡우 물 마시기 - 곡우풍습]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 24절기 중 여름 페이지 -->
+    <div data-role="page" id="summer">
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <a href="#home" data-icon="home">Home</a>
+            <h1>24절기 중 여름</h1>
+        </div>
+        <div data-role="content">
+            <h1>여름페이지 내용</h1>
+        </div>
+    </div>
+    <!-- 24절기 중 가을 페이지 -->
+    <div data-role="page" id="fall">
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <a href="#home" data-icon="home">Home</a>
+            <h1>24절기 중 가을</h1>
+        </div>
+        <div data-role="content">
+            <h1>가을페이지 내용</h1>
+        </div>
+    </div>
+    <!-- 24절기 중 겨울 페이지 -->
+    <div data-role="page" id="winter">
+        <div data-role="header" data-theme="b" data-position="fixed">
+            <a href="#home" data-icon="home">Home</a>
+            <h1>24절기 중 겨울</h1>
+        </div>
+        <div data-role="content">
+            <h1>겨울페이지 내용</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+    data-inset == 약간씩 내용이 안쪽으로 들어간다.
+
+ -->
